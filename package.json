@@ -1,6 +1,6 @@
 {
   "name": "miluna-pubsub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a simple pub sub that enhances your code by adding reactive programming in a simple manner",
   "main": "build/index.js",
   "scripts": {
