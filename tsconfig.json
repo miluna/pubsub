@@ -4,6 +4,7 @@
     "module": "commonjs",
     "pretty": true,
     "sourceMap": true,
+    "declaration": true,
     "outDir": "build",
     "importHelpers": false,
     "strict": true,
@@ -22,7 +23,7 @@
     "emitDecoratorMetadata": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "allowJs": true,
+    "allowJs": false,
     "lib": [
       "es5",
       "es6",

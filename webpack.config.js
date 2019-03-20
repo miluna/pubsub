@@ -7,7 +7,8 @@ module.exports = {
         rules: [
             {
                 test: /\.ts$/,
-                use: "ts-loader"
+                use: "ts-loader",
+                exclude: [/node_modules/],
             },
             {
                 exclude: /.*\.test\.(js|ts)$/
@@ -21,6 +22,9 @@ module.exports = {
     },
     output: {
         filename: "index.js",
-        path: path.resolve(__dirname, "./build")
+        path: path.resolve(__dirname, "./build"),
+        library: 'miluna-pubsub',
+        libraryTarget: 'umd',
+        globalObject: 'this'
     }
 };
