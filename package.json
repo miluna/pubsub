@@ -1,7 +1,7 @@
 {
   "name": "miluna-pubsub",
   "version": "1.0.1",
-  "description": "This is a simple pub sub that enhances your code by adding reactive programming in a simple manner",
+  "description": "A simple publisher-subscriber for JavaScript written in TypeScript that enhances your code by adding reactive programming in a simple manner",
   "main": "build/index.js",
   "scripts": {
     "test": "jest",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miluna/simple-pubsub.git"
+    "url": "git+https://github.com/miluna/miluna-pubsub.git"
   },
   "author": "Miguel Angel Luna",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/miluna/simple-pubsub/issues"
+    "url": "https://github.com/miluna/miluna-pubsub/issues"
   },
-  "homepage": "https://github.com/miluna/simple-pubsub#readme",
+  "homepage": "https://github.com/miluna/miluna-pubsub#readme",
   "dependencies": {
     "uuid": "^3.3.2"
   },
