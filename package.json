@@ -1,0 +1,36 @@
+{
+  "name": "simple-pubsub",
+  "version": "1.0.0",
+  "description": "This is a simple pub sub that enhances your code by adding reactive programming in a simple manner",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miluna/simple-pubsub.git"
+  },
+  "author": "Miguel Angel Luna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miluna/simple-pubsub/issues"
+  },
+  "homepage": "https://github.com/miluna/simple-pubsub#readme",
+  "dependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.11.4",
+    "@types/uuid": "^3.4.4",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.4000",
+    "uuid": "^3.3.2"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "moduleNameMapper": {
+      "^@App/(.*)$": "<rootDir>/src/$1",
+      "^lib/(.*)$": "<rootDir>/common/$1"
+    }
+  }
+}
