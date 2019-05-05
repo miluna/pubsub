@@ -1,13 +1,13 @@
-# miluna-pubsub
+# @miluna/pubsub
 ---
 A simple publisher-subscriber for JavaScript written in TypeScript
 
 ## Download
 ---
-miluna-pubsub is available through <a href="https://www.npmjs.com/package/miluna-pubsub">npm</a>. You can download this package using the following command
+@miluna/pubsub is available through <a href="https://www.npmjs.com/package/@miluna/pubsub">npm</a>. You can download this package using the following command
 
 ```sh
-npm i miluna-pubsub
+npm i @miluna/pubsub
 ```
 
 
@@ -17,7 +17,7 @@ You create a subscription to a topic and asign a callback to that subscription. 
 
 
 ```js
-import { subscribe, publish, unsubscribe } from "miluna-pubsub";
+import { subscribe, publish, unsubscribe } from "@miluna/pubsub";
 
 // create subscription
 const subscription = subscribe("test", (arg) => console.log(arg));
