@@ -2,7 +2,7 @@
   "name": "@miluna/pubsub",
   "version": "1.0.3",
   "description": "A simple publisher-subscriber for JavaScript written in TypeScript that enhances your code by adding reactive programming in a simple manner",
-  "main": "build/index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "jest",
     "build": "webpack-cli"
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/miluna/miluna-pubsub#readme",
   "dependencies": {
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "typescript": "^3.3.4000"
   },
   "devDependencies": {
     "webpack": "^4.29.6",
@@ -28,8 +29,7 @@
     "@types/uuid": "^3.4.4",
     "jest": "^24.5.0",
     "ts-jest": "^24.0.0",
-    "ts-loader": "^5.3.3",
-    "typescript": "^3.3.4000"
+    "ts-loader": "^5.3.3"
   },
   "jest": {
     "preset": "ts-jest",
