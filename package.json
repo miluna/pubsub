@@ -1,6 +1,6 @@
 {
   "name": "@miluna/pubsub",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "A simple publisher-subscriber for JavaScript written in TypeScript that enhances your code by adding reactive programming in a simple manner",
   "main": "index.ts",
   "scripts": {
